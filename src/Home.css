@@ -1,8 +1,8 @@
-.App {
+.Home {
   text-align: center;
 }
 
-.App-logo {
+.Home-logo {
   height: 18vmin;
   pointer-events: none;
   border-radius: 50%;
@@ -11,7 +11,7 @@
 
 
 
-.App-header {
+.Home-header {
   background-color: #fffdfd;
   min-height: 100vh;
   display: flex;
@@ -22,12 +22,17 @@
   font-family:'Roboto', sans-serif;
   font-weight: 300;
   color: black;
+  position: flex;
   
 }
 
-.App-link {
+.Home-link {
   color: black;
   padding: 30px; 
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: calc(14px + 2vmin);
+  
 }
 
 @keyframes App-logo-spin {
@@ -40,10 +45,10 @@
 }
 
 .social {
-  position: absolute;
+  position: flex;
   margin-top: 20px;
   display: flex;
-  bottom: 240px;
+  bottom: 200px;
   
 }
 .social i {
@@ -52,5 +57,5 @@
   color: #9a9b9c;
 }
   .social i:hover {
-  color: #ffffff;
+  color: #d6d3d3;
 }
