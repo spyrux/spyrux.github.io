@@ -1,10 +1,14 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import ChildCareIcon from '@material-ui/icons/ChildCare';
+import HouseIcon from '@material-ui/icons/House';
+import CallIcon from '@material-ui/icons/Call';
+import CodeIcon from '@material-ui/icons/Code';
+import DescriptionIcon from '@material-ui/icons/Description';
+
 import { Drawer as MyDrawer} from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
@@ -15,8 +19,6 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 import { withRouter } from "react-router-dom";
 import { spacing } from '@material-ui/system';
 
@@ -93,30 +95,31 @@ const Drawer = props => {
         setOpen(false);
     };
     const itemsList = [
+     
         {
             text: "Home",
-
+            icon: <HouseIcon/>,
             onClick: () => history.push("/")
         },
         {
             text: "About",
-
+            icon: <ChildCareIcon/>,
             onClick: () => history.push("/about")
         },
         {
             text: "Projects",
-
+            icon:<CodeIcon/>,
             onClick: () => history.push("/projects")
         },
         {
             text: "Resume",
-
+            icon: <DescriptionIcon/>,
             onClick: () => history.push("/resume")
         },
         
         {
             text: "Contact",
-
+            icon: <CallIcon/>,
             onClick: () => history.push("/contact")
         }
     ];
