@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
-import logo from './profilepicture.png';
-import Socials from './components/Socials';
+import resume from './William_Cui_Resume.pdf';
+
 import './Home.css';
 
 class Resume extends Component {
     render() {
         return (
-            <div className="Home">
-            <header className="Home-header">
-              <img src={logo} className="Home-logo" alt="logo" />
-    
-              <body className="Home-link">
-                William Cui
-            </body>
-    
-              <Socials />
-            </header>
-          </div>)
+          <body className = 'Home-link'>
+          <iframe src={resume} width="100%" height="670px">
+          </iframe>
+        </body>)
 }
 }
 export default Resume
