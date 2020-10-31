@@ -1,19 +1,32 @@
 .Home {
   text-align: center;
+  
 }
 
 .Home-logo {
-  height: 18vmin;
+  height: 19vmin;
   pointer-events: none;
   border-radius: 50%;
-  border: 2px solid rgb(53, 53, 53);
+ 
+}
+
+.about-logo {
+
+  height: 250px;
+  width: 125px;
+  pointer-events: none;
+  left: 400px;
+  position: absolute;
+  bottom: 60px;
+  
+ 
 }
 
 
 
 .Home-header {
-  background-color: #fffdfd;
-  min-height: 100vh;
+  background-color: #fafafa;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,11 +39,71 @@
   
 }
 
+.body-header{
+  background-color: #fafafa;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  justify-content: center;
+  
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  overflow: hidden;
+  
+  
+}
+
+
+.body-text{
+
+  background-color: #fafafa;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  position:relative;
+  left:50px;
+  bottom: 200px;
+
+}
+.about-body{
+  font-size: 16px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  
+  position:absolute;
+  top:320px;
+
+}
+.about-body2{
+  font-size: 16px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  
+  position:absolute;
+  top: 490px;
+}
+.about-body3{
+  font-size: 16px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  
+  position:absolute;
+  top: 590px;
+}
+
 .Home-link {
   color: black;
   padding: 30px; 
   font-family:'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: calc(14px + 2vmin);
   
 }
@@ -46,9 +119,9 @@
 
 .social {
   position: flex;
-  margin-top: 20px;
+ 
   display: flex;
-  bottom: 200px;
+  bottom: 300px;
   
 }
 .social i {
