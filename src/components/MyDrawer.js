@@ -108,11 +108,11 @@ const Drawer = props => {
             icon: <ChildCareIcon/>,
             onClick: () => history.push("/about")
         },
-        {
-            text: "Projects",
-            icon:<CodeIcon/>,
-            onClick: () => history.push("/projects")
-        },
+        // {
+        //     text: "Projects",
+        //     icon:<CodeIcon/>,
+        //     onClick: () => history.push("/projects")
+        // },
         {
             text: "Resume",
             icon: <DescriptionIcon/>,

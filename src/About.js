@@ -17,7 +17,7 @@ class About extends Component {
               at the University of British Columbia with an expected<br></br>
               graduation of May 2022. I am  currently searching for <br></br>
               software engineering internships!<br></br>
-              <br></br>
+            
               <br></br>
             
               I have experience in full-stack application development <br></br>
@@ -25,9 +25,10 @@ class About extends Component {
               such as machine learning, data science, and quantitative analysis.<br></br>
 
               <br></br>
-              <br></br>
               In my spare time, I enjoy making music, working out, and gaming.<br></br>
-              I can also speak three languages: English, French, and Chinese!
+              I can also speak three languages: English, French, and Chinese!<br></br>
+              I am passionate about art, design, and creativity, so I try to<br></br>
+              incorporate them in my software development. <br></br>
             </body>
              
               

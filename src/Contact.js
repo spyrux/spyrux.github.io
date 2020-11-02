@@ -8,13 +8,16 @@ class Contact extends Component {
         return (
             <div className="Home">
             <header className="Home-header">
-              <img src={logo} className="Home-logo" alt="logo" />
+              
     
               <body className="Home-link">
-                William Cui
-            </body>
-    
-              <Socials />
+                Email: cuimingxi@gmail.com
+                <br></br>
+                <br></br>
+                Telephone: 778-792-2162
+                <br></br>
+
+              </body>
             </header>
           </div>)
 }
