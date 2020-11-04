@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/spyrux.github.io/static/css/main.cb7a0c3d.chunk.css",
-    "main.js": "/spyrux.github.io/static/js/main.819e783f.chunk.js",
-    "main.js.map": "/spyrux.github.io/static/js/main.819e783f.chunk.js.map",
+    "main.css": "/spyrux.github.io/static/css/main.a9234810.chunk.css",
+    "main.js": "/spyrux.github.io/static/js/main.e69be395.chunk.js",
+    "main.js.map": "/spyrux.github.io/static/js/main.e69be395.chunk.js.map",
     "runtime-main.js": "/spyrux.github.io/static/js/runtime-main.0ea697de.js",
     "runtime-main.js.map": "/spyrux.github.io/static/js/runtime-main.0ea697de.js.map",
     "static/js/2.30085bd7.chunk.js": "/spyrux.github.io/static/js/2.30085bd7.chunk.js",
     "static/js/2.30085bd7.chunk.js.map": "/spyrux.github.io/static/js/2.30085bd7.chunk.js.map",
     "index.html": "/spyrux.github.io/index.html",
-    "precache-manifest.848227b88f0327179a5a3ca178d4c541.js": "/spyrux.github.io/precache-manifest.848227b88f0327179a5a3ca178d4c541.js",
+    "precache-manifest.2d6f865657bc673c96d6c9982784412c.js": "/spyrux.github.io/precache-manifest.2d6f865657bc673c96d6c9982784412c.js",
     "service-worker.js": "/spyrux.github.io/service-worker.js",
-    "static/css/main.cb7a0c3d.chunk.css.map": "/spyrux.github.io/static/css/main.cb7a0c3d.chunk.css.map",
+    "static/css/main.a9234810.chunk.css.map": "/spyrux.github.io/static/css/main.a9234810.chunk.css.map",
     "static/js/2.30085bd7.chunk.js.LICENSE.txt": "/spyrux.github.io/static/js/2.30085bd7.chunk.js.LICENSE.txt",
     "static/media/William_Cui_Resume.pdf": "/spyrux.github.io/static/media/William_Cui_Resume.55310b34.pdf",
     "static/media/aboutpic.png": "/spyrux.github.io/static/media/aboutpic.dba2adc8.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0ea697de.js",
     "static/js/2.30085bd7.chunk.js",
-    "static/css/main.cb7a0c3d.chunk.css",
-    "static/js/main.819e783f.chunk.js"
+    "static/css/main.a9234810.chunk.css",
+    "static/js/main.e69be395.chunk.js"
   ]
 }

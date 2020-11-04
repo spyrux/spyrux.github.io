@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spyrux.github.io/precache-manifest.848227b88f0327179a5a3ca178d4c541.js"
+  "/spyrux.github.io/precache-manifest.2d6f865657bc673c96d6c9982784412c.js"
 );
 
 self.addEventListener('message', (event) => {

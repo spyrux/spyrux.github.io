@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b5ccbc531962443bc56d45a4af31b59",
+    "revision": "484021cdf97bef8e46d36c16f9110702",
     "url": "/spyrux.github.io/index.html"
   },
   {
-    "revision": "14b56813653540ac24c3",
-    "url": "/spyrux.github.io/static/css/main.cb7a0c3d.chunk.css"
+    "revision": "bc367e9279edf1e0cf5c",
+    "url": "/spyrux.github.io/static/css/main.a9234810.chunk.css"
   },
   {
     "revision": "aaaa3b42b12692563c7b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spyrux.github.io/static/js/2.30085bd7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14b56813653540ac24c3",
-    "url": "/spyrux.github.io/static/js/main.819e783f.chunk.js"
+    "revision": "bc367e9279edf1e0cf5c",
+    "url": "/spyrux.github.io/static/js/main.e69be395.chunk.js"
   },
   {
     "revision": "4e5899f3d99cbfff07d9",
