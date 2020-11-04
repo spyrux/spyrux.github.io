@@ -12,7 +12,7 @@ class About extends Component {
             <header className="body-text">
             <img src={picture} className="about-logo" alt="logo" /> 
             <body className = "about-body">
-              Hello there, my name is William Cui <br></br>
+              Hello there! My name is William Cui <br></br>
               and I am currently enrolled in a B.Sc in Mathematics <br></br>
               at the University of British Columbia with an expected<br></br>
               graduation of May 2022. I am  currently searching for <br></br>

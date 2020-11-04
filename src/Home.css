@@ -15,9 +15,9 @@
   height: 250px;
   width: 125px;
   pointer-events: none;
-  left: 400px;
-  position: absolute;
-  bottom: 45px;
+  right: 350px;
+  position: relative;
+  top: 255px;
   
  
 }
